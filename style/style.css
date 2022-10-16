@@ -879,7 +879,7 @@ flex-direction: column;
 }
 @media (max-width: 768px) {
     .projects-page {
-        grid-template-columns: minmax(500px,1fr);
+        grid-template-columns: minmax(200px,1fr);
         margin-left: 10px;
         margin-right: 10px;
         gap: 10px;
@@ -941,7 +941,7 @@ margin-top: 15px;
     .projects-page  .project .tech{
         flex-direction: column;
     }
-    .projects-page  .project .tech span:not(:last-of-type){
+    .projects-page  .project .tech span{
         margin-top: 15px;
     }
     .projects-page  .project .info{
@@ -1133,7 +1133,7 @@ grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
     height: 64px;
     transition: 0.3s;
 }
-.files-page .files-content .file img{
+.files-page .files-content .file:hover img{
     transform: rotate(5deg);
 }
 .files-page .files-content .info{
